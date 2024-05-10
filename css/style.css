@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+  *{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body
+{
+    background-color: white;
+}
+
+.navbar
+{
+    background-color: rgb(244, 253, 255);
+}
+
+.logofalmedic
+{
+    display: flex;
+}
+
+.teksfalmedic
+{
+    
+    line-height: 50px;
+}
+
+.rounded-circle
+{
+    margin-right: 5px;
+    width: 60px;
+    height: auto;
+}
+
+.thumbnail-satu
+{
+    width: 1600px;
+    height: 500px;
+}
+
+.slideshow-container {
+    position: relative;
+    background: #F8F9F2;
+  }
+
+.mySlides {
+    display: none;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .author {
+    color:#5DB8B1;
+    padding-top: 10px;
+}
+
+q {font-style: italic;}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color:#88bc67;
+    color: white;
+  }
+
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #F8F9F2;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .button-maps{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 392px) and (max-width: 768px)  {
+    .konten-kanan {
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .kolom-kosong{
+        display: none;
+    }
+}
